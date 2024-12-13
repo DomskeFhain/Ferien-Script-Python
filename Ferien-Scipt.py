@@ -15,7 +15,7 @@ tag_der_einheit = "2025.10.03"
 reformation = "2025.10.31"
 
 
-if winter_holidays_start_2024 < date_today < winter_holidays_end_2024:
+if winter_holidays_start_2024 <= date_today <= winter_holidays_end_2024:
     print("Du hast heute heute frei dank der Winterferien 2024")
 elif easter_holidays_start25 <= date_today <= easter_holidays_end25:
     print("Du hast heute heute frei dank der Osterferien 2025")
