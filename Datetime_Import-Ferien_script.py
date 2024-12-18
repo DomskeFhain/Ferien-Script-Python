@@ -1,20 +1,20 @@
-import datetime
+from datetime import datetime
 
-date_today = (str(datetime))
-
-winter_holidays_start_2024 = "2024.12.24"
-winter_holidays_end_2024 = "2025.01.01"
-easter_holidays_start25 = "2025.04.17"
-easter_holidays_end25 = "2025.04.22"
-summer_holidays_start25 = "2025.08.08"
-summer_holidays_end25 = "2025.08.20"
-winter_holidays_start25 = "2025.12.23"
-winter_holidays_end25 = "2026.01.02"
-first_may = "2025.05.01"
-christi = "2025.05.29"
-pfingsti = "2025.06.09"
-tag_der_einheit = "2025.10.03"
-reformation = "2025.10.31"
+date_today = datetime.now()
+print(date_today)
+winter_holidays_start_2024 = datetime(2024, 12, 24)
+winter_holidays_end_2024 =  datetime(2025, 1, 1)
+easter_holidays_start25 = datetime(2025, 4, 17)
+easter_holidays_end25 = datetime(2025, 4, 22)
+summer_holidays_start25 = datetime(2025, 8, 8)
+summer_holidays_end25 = datetime(2025, 8, 20)
+winter_holidays_start25 = datetime(2025, 12, 23)
+winter_holidays_end25 = datetime(2026, 1, 2)
+first_may = datetime(2025, 5, 1)
+christi = datetime(2025, 5, 29)
+pfingsti = datetime(2025, 6, 9)
+tag_der_einheit = datetime(2025, 10, 3)
+reformation = datetime(2025, 10, 31)
 
 
 if winter_holidays_start_2024 <= date_today <= winter_holidays_end_2024:
